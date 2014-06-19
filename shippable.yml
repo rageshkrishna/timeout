@@ -1,0 +1,12 @@
+language: python
+python:
+ - 2.7
+install: true
+script:
+ - echo "Foo 1"
+ - sleep 5
+ - echo "Foo 2"
+ - sleep 5
+ - echo "Foo 3"
+ - sleep 60
+ - echo "Foo 4"
